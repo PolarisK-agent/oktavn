@@ -1,28 +1,37 @@
 {
+  "meta": {
+    "mode": "production-snapshot",
+    "snapshotAt": "2026-04-08T21:10:00+07:00",
+    "linkAudit": {
+      "lastCheckedAt": "2026-04-08T21:12:00+07:00",
+      "healthy": 19,
+      "total": 19
+    }
+  },
   "ticker": [
     {
-      "sourceUrl": "https://www.investing.com/currencies/usd-krw",
+      "sourceUrl": "https://www.google.com/finance/quote/USD-KRW",
       "label": "USD/KRW",
       "value": "1,356.22",
       "change": "+0.34%",
       "trend": "up"
     },
     {
-      "sourceUrl": "https://www.investing.com/currencies/usd-vnd",
+      "sourceUrl": "https://www.google.com/finance/quote/USD-VND",
       "label": "VND/USD",
       "value": "25,410.00",
       "change": "+0.08%",
       "trend": "up"
     },
     {
-      "sourceUrl": "https://www.investing.com/indices/kospi",
+      "sourceUrl": "https://www.google.com/finance/quote/KOSPI:INDEXKRX",
       "label": "KOSPI",
       "value": "2,741.81",
       "change": "+1.12%",
       "trend": "up"
     },
     {
-      "sourceUrl": "https://www.investing.com/indices/vn",
+      "sourceUrl": "https://www.google.com/finance/quote/VNINDEX:INDEXHNX",
       "label": "VN-Index",
       "value": "1,286.42",
       "change": "+0.57%",
@@ -32,16 +41,16 @@
   "kotraNews": [
     {
       "sourceUrl": "https://vnexpress.net/chung-khoan-viet-nam-duoc-nang-hang-5059738.html",
-      "title": "베트남 제조업 공급망 재편, 한국 부품 기업 기회 확대",
-      "summary": "베트남 북부 산업단지 확장으로 한국 부품 수요가 증가했습니다. 현지 조달 비중 확대 정책이 병행되며 협력 파트너 발굴이 중요해졌습니다. 중소기업은 JV와 ODM 진입전략이 유효합니다.",
-      "source": "KOTRA 호치민",
+      "title": "베트남 증시 등급 이슈와 외국인 자금 흐름 점검",
+      "summary": "증시 등급 관련 논의가 재부각되며 외국인 수급과 거래대금 변동성이 확대되고 있습니다. 금융 섹터와 수출주 중심으로 포지셔닝 점검이 필요합니다.",
+      "source": "VnExpress Economy",
       "publishedAt": "2026-04-08 06:20"
     },
     {
       "sourceUrl": "https://vnexpress.net/vn-index-tang-ky-luc-5060101.html",
-      "title": "베트남 유통시장 디지털 전환 가속, 옴니채널 투자 증가",
-      "summary": "대형 리테일 체인이 온라인-오프라인 통합 물류를 확대하고 있습니다. 결제와 재고관리 SaaS 수요가 빠르게 늘어났습니다. 한국 솔루션 기업의 B2B 진출 여지가 커졌습니다.",
-      "source": "KOTRA 하노이",
+      "title": "VN-Index 강세 국면에서 섹터별 리스크 관리 필요",
+      "summary": "지수 상승 구간에서도 거래대금이 동반되지 않으면 조정 가능성이 커집니다. 회원사는 환율과 원자재 변동을 함께 모니터링해야 합니다.",
+      "source": "VnExpress Markets",
       "publishedAt": "2026-04-08 05:40"
     }
   ],
@@ -88,25 +97,25 @@
         "title": "국경간 풀필먼트 수요 확대",
         "why": "한국 소비재의 베트남 역직구 수요가 증가하며 배송 품질 경쟁이 심화되고 있습니다.",
         "action": "회원사는 3PL 파트너 2~3곳 견적을 비교해 7일 이내 배송 SLA를 확보하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=cross-border%20fulfillment"
+        "sourceUrl": "https://news.google.com/search?q=Vietnam%20cross-border%20logistics&hl=en-US&gl=US&ceid=US:en"
       },
       {
         "title": "K-뷰티 도매 검색량 상승",
         "why": "소매 유통보다 도매·B2B 문의가 빠르게 늘고 있어 초기 진입 단가를 유리하게 만들 수 있습니다.",
         "action": "카탈로그를 베트남어/영어 2개 버전으로 준비하고 월 1회 바이어 미팅을 운영하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=k-beauty%20wholesale"
+        "sourceUrl": "https://news.google.com/search?q=Vietnam%20beauty%20wholesale&hl=en-US&gl=US&ceid=US:en"
       },
       {
         "title": "스마트팩토리 레트로핏 투자",
         "why": "신규 공장 신축보다 기존 라인 효율 개선 프로젝트가 늘어 도입 장벽이 낮아지고 있습니다.",
         "action": "센서/모니터링 SaaS의 파일럿 3개월 패키지를 제안해 레퍼런스를 먼저 확보하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=smart%20factory%20retrofit"
+        "sourceUrl": "https://news.google.com/search?q=Vietnam%20smart%20factory%20automation&hl=en-US&gl=US&ceid=US:en"
       },
       {
         "title": "B2B 결제 게이트웨이 고도화",
         "why": "베트남 현지 정산과 해외 정산을 동시에 처리하려는 수요가 증가하고 있습니다.",
         "action": "현지 은행 파트너와 API 연동 테스트를 선행해 결제 전환율을 우선 검증하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=b2b%20payment%20gateway"
+        "sourceUrl": "https://news.google.com/search?q=Vietnam%20B2B%20payment%20gateway&hl=en-US&gl=US&ceid=US:en"
       }
     ]
   },
