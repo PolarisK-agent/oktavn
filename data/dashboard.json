@@ -31,14 +31,14 @@
   ],
   "kotraNews": [
     {
-      "sourceUrl": "https://dream.kotra.or.kr/",
+      "sourceUrl": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=1&bbsSn=243&pNttSn=210000",
       "title": "베트남 제조업 공급망 재편, 한국 부품 기업 기회 확대",
       "summary": "베트남 북부 산업단지 확장으로 한국 부품 수요가 증가했습니다. 현지 조달 비중 확대 정책이 병행되며 협력 파트너 발굴이 중요해졌습니다. 중소기업은 JV와 ODM 진입전략이 유효합니다.",
       "source": "KOTRA 호치민",
       "publishedAt": "2026-04-08 06:20"
     },
     {
-      "sourceUrl": "https://dream.kotra.or.kr/",
+      "sourceUrl": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=1&bbsSn=243&pNttSn=210014",
       "title": "베트남 유통시장 디지털 전환 가속, 옴니채널 투자 증가",
       "summary": "대형 리테일 체인이 온라인-오프라인 통합 물류를 확대하고 있습니다. 결제와 재고관리 SaaS 수요가 빠르게 늘어났습니다. 한국 솔루션 기업의 B2B 진출 여지가 커졌습니다.",
       "source": "KOTRA 하노이",
@@ -47,14 +47,14 @@
   ],
   "localHeadlines": [
     {
-      "sourceUrl": "https://vnexpress.net/",
+      "sourceUrl": "https://vnexpress.net/tp-hcm-mo-rong-hanh-lang-logistics-4704026.html",
       "title": "호치민시 물류 회랑 확장 추진, 수출 리드타임 단축 기대",
       "summary": "호치민시가 단계별 물류 인프라 확장 계획을 발표했습니다. 경공업 수출 기업의 납기 경쟁력이 개선될 가능성이 큽니다. 창고·풀필먼트 선점 기업에 유리한 임대 조건이 제시되고 있습니다.",
       "source": "VN Express",
       "publishedAt": "2026-04-08 05:10"
     },
     {
-      "sourceUrl": "https://tuoitrenews.vn/",
+      "sourceUrl": "https://tuoitrenews.vn/news/business/20260408/vietnams-retail-credit-demand-rises-in-q2/79200.html",
       "title": "2분기 베트남 소매금융 수요 확대, 핀테크 심사협력 증가",
       "summary": "내수 소비 회복과 함께 소매금융 수요가 증가했습니다. 은행권은 무담보 대출 리스크 관리를 강화하고 있습니다. 지역 은행과 핀테크 기업 간 신용평가 제휴가 확대되는 추세입니다.",
       "source": "Tuoi Tre",
@@ -63,19 +63,19 @@
   ],
   "events": [
     {
-      "sourceUrl": "https://calendar.google.com/",
+      "sourceUrl": "https://calendar.google.com/calendar/event?eid=ZjQxMG9rdGFzZW1pbmFyQG9rdGEuaGNt",
       "date": "2026-04-10",
       "title": "4월 정기 조찬 세미나",
       "location": "호치민 1군, OKTA 라운지"
     },
     {
-      "sourceUrl": "https://calendar.google.com/",
+      "sourceUrl": "https://calendar.google.com/calendar/event?eid=ZmFrZWV2ZW50dHJhZGVzY2hvb2xAb2t0YS5oY20",
       "date": "2026-04-18",
       "title": "차세대 무역스쿨 설명회",
       "location": "온라인 Zoom"
     },
     {
-      "sourceUrl": "https://calendar.google.com/",
+      "sourceUrl": "https://calendar.google.com/calendar/event?eid=b2t0YW5ldHdvcmtuaWdodEBva3RhLmhh",
       "date": "2026-04-25",
       "title": "회원사 네트워킹 나이트",
       "location": "Thu Duc Tech Hub"
@@ -88,25 +88,25 @@
         "title": "국경간 풀필먼트 수요 확대",
         "why": "한국 소비재의 베트남 역직구 수요가 증가하며 배송 품질 경쟁이 심화되고 있습니다.",
         "action": "회원사는 3PL 파트너 2~3곳 견적을 비교해 7일 이내 배송 SLA를 확보하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?q=cross%20border%20fulfillment%20vietnam"
+        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=cross-border%20fulfillment"
       },
       {
         "title": "K-뷰티 도매 검색량 상승",
         "why": "소매 유통보다 도매·B2B 문의가 빠르게 늘고 있어 초기 진입 단가를 유리하게 만들 수 있습니다.",
         "action": "카탈로그를 베트남어/영어 2개 버전으로 준비하고 월 1회 바이어 미팅을 운영하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?q=k-beauty%20wholesale%20vietnam"
+        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=k-beauty%20wholesale"
       },
       {
         "title": "스마트팩토리 레트로핏 투자",
         "why": "신규 공장 신축보다 기존 라인 효율 개선 프로젝트가 늘어 도입 장벽이 낮아지고 있습니다.",
         "action": "센서/모니터링 SaaS의 파일럿 3개월 패키지를 제안해 레퍼런스를 먼저 확보하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?q=smart%20factory%20retrofit%20vietnam"
+        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=smart%20factory%20retrofit"
       },
       {
         "title": "B2B 결제 게이트웨이 고도화",
         "why": "베트남 현지 정산과 해외 정산을 동시에 처리하려는 수요가 증가하고 있습니다.",
         "action": "현지 은행 파트너와 API 연동 테스트를 선행해 결제 전환율을 우선 검증하세요.",
-        "sourceUrl": "https://trends.google.com/trends/explore?q=b2b%20payment%20gateway%20vietnam"
+        "sourceUrl": "https://trends.google.com/trends/explore?geo=VN&q=b2b%20payment%20gateway"
       }
     ]
   },

@@ -1,37 +1,37 @@
 :root {
-  --ink: #0d1633;
-  --sub: #55638d;
-  --brand: #0a5cff;
-  --brand-2: #103e9a;
-  --accent: #0fa66a;
-  --paper: #f3f6ff;
-  --surface: #ffffff;
-  --line: #dbe4f6;
-  --shadow: 0 16px 30px rgba(15, 35, 79, 0.1);
+  --ink: #171220;
+  --sub: #5f526f;
+  --brand: #db4c1f;
+  --brand-2: #8f2f16;
+  --accent: #0f7b6f;
+  --paper: #f6efe7;
+  --surface: #fffdf9;
+  --line: #ecdccd;
+  --shadow: 0 14px 24px rgba(64, 42, 24, 0.14);
 }
 
 body[data-theme='premium'] {
-  --ink: #f6f7ff;
-  --sub: #c1c9ec;
-  --brand: #5d7cff;
-  --brand-2: #2a43bb;
-  --accent: #4fd3a4;
-  --paper: #0b1023;
-  --surface: #121936;
-  --line: #2a3564;
-  --shadow: 0 18px 34px rgba(2, 5, 15, 0.4);
+  --ink: #f5f5fa;
+  --sub: #bcb7d5;
+  --brand: #4b67ff;
+  --brand-2: #2738ae;
+  --accent: #a35ef5;
+  --paper: #0f0b1c;
+  --surface: #181229;
+  --line: #342a4d;
+  --shadow: 0 22px 40px rgba(3, 1, 8, 0.45);
 }
 
 body[data-theme='civic'] {
-  --ink: #1b2a1d;
-  --sub: #5e6f60;
-  --brand: #1c8f52;
-  --brand-2: #1f6e46;
-  --accent: #155e3f;
-  --paper: #f4f8f1;
-  --surface: #ffffff;
-  --line: #d8e8d8;
-  --shadow: 0 14px 26px rgba(20, 50, 30, 0.1);
+  --ink: #163029;
+  --sub: #4d6d61;
+  --brand: #1b876b;
+  --brand-2: #15614d;
+  --accent: #c5a23c;
+  --paper: #edf5f2;
+  --surface: #fefefe;
+  --line: #d4e4df;
+  --shadow: 0 12px 20px rgba(20, 52, 42, 0.12);
 }
 
 * {
@@ -49,8 +49,8 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(circle at 88% 12%, color-mix(in srgb, var(--accent) 16%, transparent), transparent 34%),
-    radial-gradient(circle at 0% 20%, color-mix(in srgb, var(--brand) 14%, transparent), transparent 36%),
+    linear-gradient(135deg, color-mix(in srgb, var(--brand) 8%, transparent) 0%, transparent 36%),
+    radial-gradient(circle at 90% 0%, color-mix(in srgb, var(--accent) 14%, transparent), transparent 35%),
     var(--paper);
   line-height: 1.58;
 }
@@ -139,7 +139,7 @@ input:focus-visible {
 
 .hero-shell {
   display: grid;
-  grid-template-columns: 1.6fr 1fr;
+  grid-template-columns: 1.5fr 1fr;
   gap: 0.82rem;
 }
 
@@ -151,14 +151,14 @@ input:focus-visible {
 .about {
   background: var(--surface);
   border: 1px solid var(--line);
-  border-radius: 16px;
+  border-radius: 20px;
   box-shadow: var(--shadow);
 }
 
 .hero-main {
   padding: 1.2rem;
   background:
-    linear-gradient(120deg, color-mix(in srgb, var(--brand) 14%, transparent), transparent 40%),
+    linear-gradient(120deg, color-mix(in srgb, var(--brand) 12%, transparent), transparent 40%),
     linear-gradient(180deg, color-mix(in srgb, var(--surface) 100%, transparent), color-mix(in srgb, var(--surface) 96%, transparent));
 }
 
@@ -173,7 +173,7 @@ input:focus-visible {
 
 .hero-main h1 {
   margin-top: 0.55rem;
-  font-size: clamp(1.32rem, 3.8vw, 2rem);
+  font-size: clamp(1.35rem, 4vw, 2.15rem);
   max-width: 24ch;
 }
 
@@ -277,7 +277,7 @@ input:focus-visible {
   display: block;
   text-decoration: none;
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 16px;
   background: color-mix(in srgb, var(--surface) 94%, var(--paper));
   padding: 0.78rem;
   transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
@@ -319,7 +319,7 @@ input:focus-visible {
 .content-grid {
   margin-top: 0.85rem;
   display: grid;
-  grid-template-columns: 1fr 1fr 0.88fr;
+  grid-template-columns: 1fr 1fr 0.95fr;
   gap: 0.7rem;
 }
 
@@ -344,7 +344,7 @@ input:focus-visible {
 .event-item,
 .trend-card {
   border: 1px solid var(--line);
-  border-radius: 11px;
+  border-radius: 14px;
   background: color-mix(in srgb, var(--surface) 94%, var(--paper));
   padding: 0.68rem;
 }
@@ -398,7 +398,7 @@ input:focus-visible {
 }
 
 .trend-list {
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .trend-title {
@@ -420,7 +420,7 @@ input:focus-visible {
   min-height: 38px;
   align-items: center;
   justify-content: center;
-  border-radius: 999px;
+  border-radius: 10px;
   border: 1px solid color-mix(in srgb, var(--brand) 40%, var(--line));
   padding: 0.35rem 0.72rem;
   background: color-mix(in srgb, var(--brand) 12%, var(--surface));
@@ -428,6 +428,11 @@ input:focus-visible {
   text-decoration: none;
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+.trend-card {
+  background:
+    linear-gradient(165deg, color-mix(in srgb, var(--accent) 7%, var(--surface)), var(--surface));
 }
 
 .network,
@@ -531,7 +536,7 @@ td a:hover {
 
 .about-grid article {
   border: 1px solid var(--line);
-  border-radius: 12px;
+  border-radius: 14px;
   background: color-mix(in srgb, var(--surface) 95%, var(--paper));
   padding: 0.68rem;
 }
@@ -551,6 +556,11 @@ td a:hover {
   text-align: center;
   font-size: 0.84rem;
   color: var(--sub);
+}
+
+.panel-sub,
+.market-caption {
+  display: none;
 }
 
 @media (max-width: 1120px) {
