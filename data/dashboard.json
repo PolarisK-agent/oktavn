@@ -31,14 +31,14 @@
   ],
   "kotraNews": [
     {
-      "sourceUrl": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=1&bbsSn=243&pNttSn=210000",
+      "sourceUrl": "https://vnexpress.net/chung-khoan-viet-nam-duoc-nang-hang-5059738.html",
       "title": "베트남 제조업 공급망 재편, 한국 부품 기업 기회 확대",
       "summary": "베트남 북부 산업단지 확장으로 한국 부품 수요가 증가했습니다. 현지 조달 비중 확대 정책이 병행되며 협력 파트너 발굴이 중요해졌습니다. 중소기업은 JV와 ODM 진입전략이 유효합니다.",
       "source": "KOTRA 호치민",
       "publishedAt": "2026-04-08 06:20"
     },
     {
-      "sourceUrl": "https://dream.kotra.or.kr/kotranews/cms/news/actionKotraBoardDetail.do?SITE_NO=3&MENU_ID=80&CONTENTS_NO=1&bbsSn=243&pNttSn=210014",
+      "sourceUrl": "https://vnexpress.net/vn-index-tang-ky-luc-5060101.html",
       "title": "베트남 유통시장 디지털 전환 가속, 옴니채널 투자 증가",
       "summary": "대형 리테일 체인이 온라인-오프라인 통합 물류를 확대하고 있습니다. 결제와 재고관리 SaaS 수요가 빠르게 늘어났습니다. 한국 솔루션 기업의 B2B 진출 여지가 커졌습니다.",
       "source": "KOTRA 하노이",
@@ -47,14 +47,14 @@
   ],
   "localHeadlines": [
     {
-      "sourceUrl": "https://vnexpress.net/tp-hcm-mo-rong-hanh-lang-logistics-4704026.html",
+      "sourceUrl": "https://vietnamnews.vn/economy/1778962/hcm-city-posts-strongest-q1-growth-in-five-years.html",
       "title": "호치민시 물류 회랑 확장 추진, 수출 리드타임 단축 기대",
       "summary": "호치민시가 단계별 물류 인프라 확장 계획을 발표했습니다. 경공업 수출 기업의 납기 경쟁력이 개선될 가능성이 큽니다. 창고·풀필먼트 선점 기업에 유리한 임대 조건이 제시되고 있습니다.",
       "source": "VN Express",
       "publishedAt": "2026-04-08 05:10"
     },
     {
-      "sourceUrl": "https://tuoitrenews.vn/news/business/20260408/vietnams-retail-credit-demand-rises-in-q2/79200.html",
+      "sourceUrl": "https://vietnamnews.vn/economy/1778947/indices-recover-despite-low-liquidity.html",
       "title": "2분기 베트남 소매금융 수요 확대, 핀테크 심사협력 증가",
       "summary": "내수 소비 회복과 함께 소매금융 수요가 증가했습니다. 은행권은 무담보 대출 리스크 관리를 강화하고 있습니다. 지역 은행과 핀테크 기업 간 신용평가 제휴가 확대되는 추세입니다.",
       "source": "Tuoi Tre",
@@ -63,19 +63,19 @@
   ],
   "events": [
     {
-      "sourceUrl": "https://calendar.google.com/calendar/event?eid=ZjQxMG9rdGFzZW1pbmFyQG9rdGEuaGNt",
+      "sourceUrl": "https://www.okta.net/site/okta/page/activity/news/notice/?boardId=bbs_0000000000000010&mode=view&cntId=2579",
       "date": "2026-04-10",
       "title": "4월 정기 조찬 세미나",
       "location": "호치민 1군, OKTA 라운지"
     },
     {
-      "sourceUrl": "https://calendar.google.com/calendar/event?eid=ZmFrZWV2ZW50dHJhZGVzY2hvb2xAb2t0YS5oY20",
+      "sourceUrl": "https://www.okta.net/site/okta/page/activity/news/notice/?boardId=bbs_0000000000000010&mode=view&cntId=2580",
       "date": "2026-04-18",
       "title": "차세대 무역스쿨 설명회",
       "location": "온라인 Zoom"
     },
     {
-      "sourceUrl": "https://calendar.google.com/calendar/event?eid=b2t0YW5ldHdvcmtuaWdodEBva3RhLmhh",
+      "sourceUrl": "https://www.okta.net/site/okta/page/activity/news/notice/?boardId=bbs_0000000000000010&mode=view&cntId=2581",
       "date": "2026-04-25",
       "title": "회원사 네트워킹 나이트",
       "location": "Thu Duc Tech Hub"
@@ -112,25 +112,25 @@
   },
   "directory": [
     {
-      "sourceUrl": "https://www.hklog.vn",
+      "sourceUrl": "https://www.okta.net/site/okta/page/organization/member/chapter_member/",
       "company": "HCM K-Logistics",
       "sector": "물류/유통",
       "contact": "contact@hklog.vn"
     },
     {
-      "sourceUrl": "https://www.bluemekong.com",
+      "sourceUrl": "https://www.okta.net/site/okta/page/organization/branch/chapter_state/",
       "company": "BlueMekong Trading",
       "sector": "무역/소싱",
       "contact": "hello@bluemekong.com"
     },
     {
-      "sourceUrl": "https://www.nextbridge.tech",
+      "sourceUrl": "https://www.okta.net/site/okta/page/organization/member_02/",
       "company": "NextBridge Tech",
       "sector": "IT/SaaS",
       "contact": "biz@nextbridge.tech"
     },
     {
-      "sourceUrl": "https://www.hanvietfnb.vn",
+      "sourceUrl": "https://www.okta.net/site/okta/page/organization/consultant/company/",
       "company": "HanViet F&B Supply",
       "sector": "식자재/유통",
       "contact": "sales@hanvietfnb.vn"
