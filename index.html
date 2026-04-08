@@ -25,6 +25,8 @@
         </a>
         <div class="top-links">
           <a href="#home">Home</a>
+          <a href="#finance">금융</a>
+          <a href="#market">시장동향</a>
           <a href="#market">Market Insight</a>
           <a href="#network">Network</a>
           <a href="#about">About</a>
@@ -33,16 +35,17 @@
     </header>
 
     <main class="site-shell">
-      <section id="home" class="hero" aria-labelledby="hero-title">
-        <div class="hero-copy">
-          <p class="eyebrow">Business Dashboard</p>
-          <h1 id="hero-title">호치민 비즈니스 핵심 정보와 글로벌 네트워크를 한 번에 연결합니다</h1>
+      <section id="home" class="hero-shell" aria-labelledby="hero-title">
+        <article class="hero-main">
+          <p class="eyebrow">World-OKTA Ho Chi Minh Chapter</p>
+          <h1 id="hero-title">회원사가 매일 확인하는 실전형 비즈니스 대시보드</h1>
           <p class="hero-subtitle">
-            World-OKTA 호치민지회 회원과 파트너를 위한 실전형 포털로, 경제 지표, 무역 동향,
-            행사 소식, 회원사 네트워크를 빠르고 정확하게 제공합니다.
+            금융 지표, 무역 뉴스, 행사, 네트워크 정보를 빠르게 탐색하고 현지 의사결정에 바로 활용할 수
+            있도록 구성했습니다.
           </p>
-        </div>
-        <div class="hero-meta" aria-label="데이터 업데이트 메타 정보">
+          <div id="fallback-banner" class="fallback-banner" role="status" aria-live="polite" hidden></div>
+        </article>
+        <aside class="hero-side" aria-label="데이터 업데이트 상태">
           <article class="meta-card">
             <p class="meta-title">마지막 업데이트</p>
             <p id="last-updated" class="meta-value">로딩 중...</p>
@@ -51,47 +54,48 @@
             <p class="meta-title">다음 업데이트</p>
             <p id="next-update" class="meta-value">로딩 중...</p>
           </article>
-        </div>
-        <div id="fallback-banner" class="fallback-banner" role="status" aria-live="polite" hidden></div>
+          <div class="quick-actions">
+            <a class="btn btn-primary" href="#network">회원사 디렉토리</a>
+            <a class="btn btn-secondary" href="#market">시장동향 보기</a>
+          </div>
+        </aside>
       </section>
 
-      <section aria-labelledby="finance-title">
+      <section id="finance" aria-labelledby="finance-title">
         <div class="section-head">
-          <h2 id="finance-title" class="section-title">Finance Ticker</h2>
+          <h2 id="finance-title" class="section-title">금융 티커</h2>
           <p>VND/KRW/USD · KOSPI · VN-Index</p>
         </div>
         <div id="ticker-grid" class="kpi-grid"></div>
       </section>
 
-      <section class="content-grid" aria-label="뉴스 및 일정">
-        <article class="panel">
-          <h3>KOTRA Briefing</h3>
+      <section class="content-grid" aria-label="핵심 뉴스와 캘린더">
+        <article class="panel spotlight">
+          <h3>KOTRA 브리핑</h3>
           <ul id="kotra-news" class="news-list"></ul>
         </article>
-        <article class="panel">
-          <h3>Local Headlines</h3>
+        <article class="panel spotlight">
+          <h3>현지 헤드라인</h3>
           <ul id="local-news" class="news-list"></ul>
         </article>
-        <article class="panel">
-          <h3>Monthly Events</h3>
+        <article class="panel calendar-panel">
+          <h3>월간 주요 행사</h3>
           <ul id="events-list" class="event-list"></ul>
         </article>
       </section>
 
-      <section id="market" class="panel market-panel" aria-labelledby="market-title">
+      <section id="market" class="market-wrap" aria-labelledby="market-title">
         <div class="section-head">
           <h2 id="market-title" class="section-title">Market Insight</h2>
-          <p>이커머스와 B2B 시장 키워드</p>
+          <p>베트남 시장 관심 키워드</p>
         </div>
-        <article>
-          <ul id="trend-list" class="trend-list"></ul>
-        </article>
+        <ul id="trend-list" class="trend-list"></ul>
       </section>
 
       <section id="network" class="network" aria-labelledby="network-title">
         <div class="section-head">
           <h2 id="network-title" class="section-title">Network Directory</h2>
-          <p>회원사 정보 검색 및 커뮤니티 연결</p>
+          <p>회원사 연결과 실무 협업</p>
         </div>
         <div class="dir-tools">
           <label for="directory-search">회원사 검색</label>
@@ -102,7 +106,6 @@
             autocomplete="off"
           />
         </div>
-
         <div class="table-wrap">
           <table>
             <thead>
@@ -115,7 +118,6 @@
             <tbody id="directory-body"></tbody>
           </table>
         </div>
-
         <div class="cta-row">
           <a class="btn btn-primary" href="#" aria-label="회원사 가입 및 수정 요청 이동">회원사 가입/수정 요청</a>
           <a class="btn btn-secondary" href="#" aria-label="문의하기 이동">문의하기</a>
@@ -124,14 +126,23 @@
 
       <section id="about" class="about" aria-labelledby="about-title">
         <div class="section-head">
-          <h2 id="about-title" class="section-title">About World-OKTA Ho Chi Minh</h2>
-          <p>함께 성장하는 한인 경제 네트워크</p>
+          <h2 id="about-title" class="section-title">About</h2>
+          <p>세계한인경제무역협회 호치민지회</p>
         </div>
-        <p>
-          World-OKTA 호치민지회는 글로벌 한인 경제인 네트워크의 가치 위에서, 회원사의 성장과
-          상호 협력을 지원합니다. 지회 활동, 교류 프로그램, 비즈니스 매칭을 통해 한국과 베트남을
-          잇는 실질적인 기회를 만들고 있습니다.
-        </p>
+        <div class="about-grid">
+          <article>
+            <h3>Mission</h3>
+            <p>한인 경제인의 글로벌 협력과 지역 비즈니스 성장을 위한 연결 허브 역할을 수행합니다.</p>
+          </article>
+          <article>
+            <h3>Network</h3>
+            <p>회원사, 차세대, 현지 파트너를 잇는 네트워크 기반으로 실질적인 교류 기회를 만듭니다.</p>
+          </article>
+          <article>
+            <h3>Programs</h3>
+            <p>세미나, 무역스쿨, 네트워킹 행사 등 현장 중심 프로그램으로 성과를 지원합니다.</p>
+          </article>
+        </div>
       </section>
 
       <footer class="footer">
