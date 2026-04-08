@@ -25,6 +25,19 @@ function safeText(value, fallback = '-') {
   return String(value);
 }
 
+function formatDateTime(value) {
+  if (!value) return '-';
+  const parsed = new Date(value);
+  if (Number.isNaN(parsed.getTime())) return safeText(value);
+  return new Intl.DateTimeFormat('ko-KR', {
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit'
+  }).format(parsed);
+}
+
 function renderTicker(items) {
   selectors.ticker.innerHTML = items
     .map(
@@ -115,15 +128,15 @@ function bindEvents() {
 }
 
 function renderMeta(data) {
-  selectors.lastUpdated.textContent = safeText(data.meta.lastUpdated);
-  selectors.nextUpdate.textContent = safeText(data.meta.nextUpdate);
+  selectors.lastUpdated.textContent = formatDateTime(data.meta.lastUpdated);
+  selectors.nextUpdate.textContent = formatDateTime(data.meta.nextUpdate);
 
   if (data.fallback && data.fallback.status !== 'normal') {
     selectors.fallbackBanner.hidden = false;
     selectors.fallbackBanner.textContent = safeText(data.fallback.message);
   } else {
-    selectors.fallbackBanner.hidden = false;
-    selectors.fallbackBanner.textContent = safeText(data.fallback.message);
+    selectors.fallbackBanner.hidden = true;
+    selectors.fallbackBanner.textContent = '';
   }
 }
 
